@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Mini Project</title>
+</head>
+<style>
+table, td, th {
+  border: 1px solid black;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+th {
+  text-align: left;
+}
+</style>
+<body style="margin:0px; min-height = 100%">
+
+
+    <table style="width:100%;   border-collapse:collapse; font:14px Arial,sans-serif;">
+        <tr>
+            <td colspan="2" style="padding:5px 5px; background-color:#acb3b9;">
+                <h1 style="font-size:12px; text-align:center"><centre>Hand Gesture Presentation</centre></h1>
+<!--                <p style="text-align:center">Center this text!</p>-->
+            </td>
+        </tr>
+        <tr  style="height:170px;">
+            <td rowspan="2" style="width:75%; background-color:#d4d7dc; vertical-align: top;">
+
+                <img src="{{ url_for('video') }}" width = 100%/>
+
+            </td>
+            <td style="padding:20px; background-color:#f2f2f2; vertical-align:top;">
+                <h2>Welcome to our site</h2>
+                <img src="{{ url_for('video1') }}" width = 100%/>
+
+            </td>
+
+        </tr>
+        <tr>
+
+            <td style="padding:20px; background-color:#f2f2f2; vertical-align:top;">
+
+                <img src="{{ url_for('video2') }}" width = 100%/>
+
+            </td>
+
+        </tr>
+
+    </table>
+    <table style="width : 100%">
+  <tr>
+
+    <th style="width:13%;font-size:16px;text-align:left;">Developed by:</th>
+    <td style="width:14%;" >Mohd Najmuddin</td>
+    <td style="width:14%;" >Madhuri </td>
+    <td style="width:14%;" >Manoja</td>
+    <td style="width:20%;" >B Sai Teja</td>
+    <th style="width:13%;" >Project Coordinator</th>
+    <td style="width:13%;">Dr. V Neelima</td>
+  </tr><tr>
+
+  </tr>
+  </table>
+</body>
+
+
+</html>
